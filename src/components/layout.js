@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
 
+import Toggle from './Toggle'
+
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
@@ -61,6 +63,9 @@ class Layout extends React.Component {
         }}
       >
         <header>{header}</header>
+
+        <Toggle />
+
         <main>{children}</main>
         <footer>© {new Date().getFullYear()}, Built with 💜</footer>
       </div>
