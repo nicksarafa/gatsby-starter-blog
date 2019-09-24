@@ -3,7 +3,7 @@ module.exports = {
     title: `Take a Hike Tech`,
     author: `Nick Sarafa`,
     description: `A blog about Technology, Mindfulness, and Entrepreneurship`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://takeahiketech.com`,
     social: {
       twitter: `nicksarafa`,
       instagram: `nicksarafa`,
