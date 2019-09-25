@@ -68,7 +68,7 @@ class Layout extends React.Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            📲&nbsp;Book a time to chat
+            <span role="img" aria-label="phone">📲</span>&nbsp;Book a time to chat
           </a>
         </footer>
       </div>
