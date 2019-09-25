@@ -58,14 +58,14 @@ const Bio = () => {
         Written by <strong>{author}</strong> who currently lives in Lisbon,
         Portugal building joyful things.
         {` `}
-        Feel free to follow him on 
+        Feel free to follow him on
         {` `}
         <a
           href={`https://twitter.com/${social.twitter}`}
           target="_blank"
           rel="noopener noreferrer"
         >
-        twitter
+          twitter
         </a>
         {` `}
         or

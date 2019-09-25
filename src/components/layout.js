@@ -46,7 +46,7 @@ class Layout extends React.Component {
             }}
             to={`/`}
           >
-            {title}
+            &#8592; {title}
           </Link>
         </h3>
       )
