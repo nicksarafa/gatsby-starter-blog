@@ -62,7 +62,15 @@ class Layout extends React.Component {
       >
         <header>{header}</header>
         <main>{children}</main>
-        <footer>© {new Date().getFullYear()}, Built with 💜</footer>
+        <footer>
+          <a
+            href="https://calendly.com/nicksarafa/15-minute-phone-call"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            📲&nbsp;Book a time to chat
+          </a>
+        </footer>
       </div>
     )
   }

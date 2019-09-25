@@ -55,23 +55,27 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who currently lives and Lisbon,
+        Written by <strong>{author}</strong> who currently lives in Lisbon,
         Portugal building joyful things.
+        {` `}
+        Feel free to follow him on 
         {` `}
         <a
           href={`https://twitter.com/${social.twitter}`}
           target="_blank"
           rel="noopener noreferrer"
         >
-          You should follow him on Twitter
+        twitter
         </a>
+        {` `}
+        or on
         {` `}
         <a
           href={`https://instagram.com/${social.instagram}`}
           target="_blank"
           rel="noopener noreferrer"
         >
-          or on Instagram
+          instagram
         </a>
       </p>
     </div>
