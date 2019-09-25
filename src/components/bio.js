@@ -68,7 +68,7 @@ const Bio = () => {
         twitter
         </a>
         {` `}
-        or on
+        or
         {` `}
         <a
           href={`https://instagram.com/${social.instagram}`}
