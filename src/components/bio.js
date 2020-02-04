@@ -55,8 +55,8 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who currently lives in Lisbon,
-        Portugal building joyful things.
+        Written by <strong>{author}</strong> who currently lives in Los Angeles,
+        California building joyful things.
         {` `}
         Feel free to follow him on
         {` `}
